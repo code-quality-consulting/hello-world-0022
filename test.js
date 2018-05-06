@@ -5,12 +5,8 @@
 // http://www.jslint.com/help.html
 const assert = require("assert");
 
-function makeGreeting(name) {
-    if (name) {
-        return "Hello " + name + "!";
-    }
-    "use strict";
-    return "Hello world!";
+function makeGreeting(name = "world") {
+    return "Hello " + name + "!";
 }
 
 assert.strictEqual(makeGreeting(), "Hello world!");
