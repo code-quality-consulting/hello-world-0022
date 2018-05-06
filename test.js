@@ -11,4 +11,5 @@ function makeGreeting() {
 }
 
 assert.strictEqual(makeGreeting(), "Hello world!");
+assert.strictEqual(makeGreeting(), "Hello Mike!");
 console.log("All tests have passed");
