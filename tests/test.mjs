@@ -3,7 +3,7 @@
 */
 
 import assert from "assert";
-import {makeGreeting} from "./greet";
+import {makeGreeting} from "../greeting";
 
 assert.strictEqual(makeGreeting(), "Hello world!");
 assert.strictEqual(makeGreeting("Mike"), "Hello Mike!");
