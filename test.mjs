@@ -3,7 +3,7 @@
 */
 
 // http://www.jslint.com/help.html
-const assert = require("assert");
+import assert from "assert";
 
 function makeGreeting(name = "world") {
     return "Hello " + name + "!";
